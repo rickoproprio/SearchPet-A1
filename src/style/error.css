@@ -1,0 +1,26 @@
+div#error {
+    border: 1px solid var(--light-active-button);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-toggle-bg);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    text-align: center;
+}
+
+div#error h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: var(--light-text-active-toggle);
+}
+
+p#subtitle {
+    font-size: 1.5em;
+    font-weight: bold;
+}

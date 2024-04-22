@@ -1,0 +1,85 @@
+nav.sidemenu {
+  width: 95px;
+  height: 100%;
+  background-color: var(--main-bg-color);
+  padding: 40px 0 40px 1%;
+  box-shadow: 3px 0 0 var(--light-hover-sub);
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+nav.sidemenu.expand {
+  width: 300px;
+}
+
+nav.sidemenu:hover {
+  width: 300px;
+}
+
+btn-expand {
+  width: 100%;
+  padding-left: 10px;
+}
+
+div.btn-expand {
+  position: relative;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+ul {
+  height: 100%;
+  list-style-type: none;
+
+}
+
+ul li.ativo {
+  background-color: var(--light-active-button);
+}
+
+ul li.item-menu a:first-child {
+  margin-top: 20px;
+}
+
+ul li.item-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 4%;
+  margin-bottom: 20px;
+  display: flex;
+  line-height: 40px;
+  transition: all 0.3s ease;
+}
+
+ul li.item-menu a:hover {
+  background-color: var(--light-hover-sub);
+  color: var(--light-text-active-toggle);
+}
+
+ul li.item-menu a .text {
+  margin-left: 60px;
+  transition: 0.2s;
+}
+
+nav.sidemenu.expand .text {
+  margin-left: 75px;
+}
+
+ul li.item-menu a .icon {
+  position: relative;
+  font-size: 30px;
+  left: 15px;
+}
+
+main {
+  margin-left: 95px;
+  padding: 1em;
+  transition: all 0.3s ease;
+}
