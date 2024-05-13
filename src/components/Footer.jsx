@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        ₢ {Year} <Link to="/">Fsystem Private</Link> - Todos os direitos
+        ₢ {Year} <Link to="/">Search Pet</Link> - Todos os direitos
       </p>
     </footer>
   );
