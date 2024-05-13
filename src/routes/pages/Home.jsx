@@ -7,7 +7,7 @@ function Home() {
       <Helmet>
         <title>{name} - Home</title>
       </Helmet> 
-      <h1>Fsystem Private</h1>
+      <h1>Neo Pet</h1>
       <p>teste teste </p>
     </main>
   );
