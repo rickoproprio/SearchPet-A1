@@ -7,8 +7,8 @@ function Home() {
       <Helmet>
         <title>{name} - Home</title>
       </Helmet> 
-      <h1>Neo Pet</h1>
-      <p>teste teste </p>
+      <h1>Search Pet</h1>
+      <p>Encontre seu Pet ou colabore a encontrar outros pets. </p>
     </main>
   );
 }
