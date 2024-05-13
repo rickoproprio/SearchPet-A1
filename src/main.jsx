@@ -65,6 +65,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 
 
-const name = "Fsystem Private";
+const name = "Search PET";
 
 export default name;
