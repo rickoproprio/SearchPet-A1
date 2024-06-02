@@ -7,7 +7,7 @@
     "start": "node app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Henrique",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
