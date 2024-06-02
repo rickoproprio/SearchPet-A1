@@ -27,7 +27,7 @@ SearchPet é um site desenvolvido para ajudar a encontrar cães perdidos, oferec
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/searchpet.git
+   git clone https://github.com/rickoproprio/SearchPet-A1.git
    ```
 2. Navegue até o diretório do projeto:
    ```sh
