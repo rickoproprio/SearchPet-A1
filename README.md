@@ -25,3 +25,29 @@ SearchPet é um site desenvolvido para ajudar a encontrar cães perdidos, oferec
 1. Clone o repositório:
    ```sh
    git clone https://github.com/seu-usuario/searchpet.git
+   ```
+2. Navegue até o diretório do projeto:
+   ```sh
+   cd searchpet
+    ```
+3. Instale as dependências:
+   ```sh
+   npm install
+   ```
+4. Inicie o servidor:
+   ```sh
+   npm start
+   ```
+   
+## Contribuição
+
+Contribuições são bem-vindas! Por favor, envie um pull request ou abra uma issue para discutir o que você gostaria de mudar.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+## Contato
+
+Se você tiver alguma dúvida, entre em contato pelo e-mail [henriquearaujof8@gmail.com.com](mailto:henriquearaujof8@gmail.com).
+
