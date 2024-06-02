@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/dog-icon.webp" />
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/dog-icon.webp" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="assets/js/vendors/color-modes.js"></script>
+    <link href="assets/libs/simplebar/dist/simplebar.min.css" rel="stylesheet" />
+    <link href="assets/libs/bootstrap-icons/font/bootstrap-icons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/theme.min.css" />
+    <title>Registrar - SearchPET</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light w-100">
+            <div class="container px-3">
+                <a class="navbar-brand" href="/">
+                    <img src="assets/dog-icon.webp" alt="Logo" style="max-width: 50px; height: auto;" />
+                </a>
+                <button class="navbar-toggler offcanvas-nav-btn" type="button">
+                    <i class="bi bi-list"></i>
+                </button>
+                <div class="offcanvas offcanvas-start offcanvas-nav" style="width: 20rem">
+                    <div class="offcanvas-body pt-0 align-items-center">
+                        <ul class="navbar-nav mx-auto align-items-lg-center">
+                            <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/perfil">Perfil</a></li>
+                            <% if (user) { %>
+                            <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
+                            <% } else { %>
+                            <li class="btn btn-light mx-2"><a class="nav-link" href="/login">Login</a></li>
+                            <li class="btn btn-primary"><a class="nav-link" href="/register">Criar Conta</a></li>
+                            <% } %>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container py-lg-8 py-5" data-cue="fadeIn">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-8 col-md-10 col-12 text-center">
+                    <h1 class="mb-4">Registrar</h1>
+                    <% if (message) { %>
+                    <div class="alert alert-danger" role="alert">
+                        <%= message %>
+                    </div>
+                    <% } %>
+                    <form action="/register" method="POST">
+                        <div class="form-group">
+                            <label for="firstName">Primeiro Nome</label>
+                            <input type="text" class="form-control" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Último Nome</label>
+                            <input type="text" class="form-control" id="lastName" name="lastName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Senha</label>
+                            <input type="password" class="form-control" id="password" name="password" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="text" class="form-control" id="phone" name="phone" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 mt-3">Registrar</button>
+                    </form>
+                    <p class="mt-3">Já tem uma conta? <a href="/login">Faça login aqui</a>.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="pt-7">
+        <div class="container mt-7 pt-lg-7 pb-4">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-9 col-lg-6 text-center">
+                    <div class="small mb-3 mb-lg-0 footer-copyright">
+                        Copyright © 2024 SearchPet. Todos os direitos reservados.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/simplebar/dist/simplebar.min.js"></script>
+    <script src="assets/libs/headhesive/dist/headhesive.min.js"></script>
+    <script src="assets/js/theme.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+# Ignorar arquivos de log
+# Ignorar diretórios específicos
+/node_modules
+
+# Ignorar arquivos de sistema
+
+# Ignorar arquivos de configuração de ambiente
+package-lock.json

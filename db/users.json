@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "Henrique",
+    "lastName": "Araujo",
+    "email": "henrique@gmail.com",
+    "password": "$2b$10$bQuYt7jUskAgIbdU/ECUpuvqgG9pj95ungG.3VTvfBoSvHX8KwTJy",
+    "phone": "11111111111",
+    "isAdmin": true
+  },
+  {
+    "firstName": "Wender",
+    "lastName": "Malalaiko",
+    "email": "leonardo_smartins1@hotmail.com",
+    "password": "$2b$10$KyAE8JTgfCMQcSWnhIpGdO6BugELNIJMRt7aLsCnRIcgdlbld2pGu",
+    "phone": "35997163833",
+    "isAdmin": false
+  },
+  {
+    "firstName": "Guilherme",
+    "lastName": "Lopes",
+    "email": "guilhermelslopes@hotmail.com",
+    "password": "$2b$10$UbHf.UBsl3Xqv/nr8XVhcuQOyKD0VjJp/HRQWfFCAb3/nZppkzJ6y",
+    "phone": "159951",
+    "isAdmin": false
+  }
+]
