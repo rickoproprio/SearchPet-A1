@@ -7,10 +7,13 @@ SearchPet é um site desenvolvido para ajudar a encontrar cães perdidos, oferec
 
 - Node.js
 - Express
-- HTML/CSS/JavaScript
 - JSON
-- Axios
-- Selenium
+- EJS
+- Body-Parser
+- Express-Session
+- Multer
+- WS
+- Bcrypt
 
 ## Funcionalidades
 
