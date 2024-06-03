@@ -52,5 +52,5 @@ Este projeto está licenciado sob a Licença MIT. Veja o arquivo `LICENSE` para 
 
 ## Contato
 
-Se você tiver alguma dúvida, entre em contato pelo e-mail [henriquearaujof8@gmail.com.com](mailto:henriquearaujof8@gmail.com).
+Se você tiver alguma dúvida, entre em contato pelo e-mail [henriquearaujof8@gmail.com](mailto:henriquearaujof8@gmail.com).
 
