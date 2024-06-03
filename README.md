@@ -19,7 +19,7 @@ SearchPet é um site desenvolvido para ajudar a encontrar cães perdidos, oferec
 
 - Registro e divulgação de cães perdidos
 - Interação entre usuários para troca de informações
-- Mapa interativo para visualização de áreas onde os cães foram perdidos e encontrados
+- Mapa interativo para visualização de áreas
 - Seção de anúncios para cães encontrados
 - Medidas de segurança para proteção de dados
 
